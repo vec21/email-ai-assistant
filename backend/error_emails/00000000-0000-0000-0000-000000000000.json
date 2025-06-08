@@ -1,0 +1,65 @@
+{
+  "Date": "Fri, 6 Jun 2025 09:45:40 +0000",
+  "From": "support@postmarkapp.com",
+  "FromName": "Postmarkapp Support",
+  "FromFull": {
+    "Email": "support@postmarkapp.com",
+    "MailboxHash": "",
+    "Name": "Postmarkapp Support"
+  },
+  "HtmlBody": "<html><body><p>This is a test html body.</p></body></html>",
+  "MailboxHash": "SampleHash",
+  "MessageID": "00000000-0000-0000-0000-000000000000",
+  "MessageStream": "inbound",
+  "ReplyTo": "replyto@example.com",
+  "Subject": "Test subject",
+  "Tag": "TestTag",
+  "TextBody": "This is a test text body.",
+  "Headers": [
+    {
+      "Name": "X-Header-Test",
+      "Value": ""
+    }
+  ],
+  "To": "\"Firstname Lastname\" <mailbox+SampleHash@inbound.postmarkapp.com>",
+  "ToFull": [
+    {
+      "Email": "mailbox+SampleHash@inbound.postmarkapp.com",
+      "MailboxHash": "SampleHash",
+      "Name": "Firstname Lastname"
+    }
+  ],
+  "Cc": "\"First Cc\" <firstcc@postmarkapp.com>, secondCc@postmarkapp.com",
+  "CcFull": [
+    {
+      "Email": "firstcc@postmarkapp.com",
+      "MailboxHash": "",
+      "Name": "First Cc"
+    },
+    {
+      "Email": "secondCc@postmarkapp.com",
+      "MailboxHash": "",
+      "Name": ""
+    }
+  ],
+  "Bcc": "\"First Bcc\" <firstbcc@postmarkapp.com>",
+  "BccFull": [
+    {
+      "Email": "firstbcc@postmarkapp.com",
+      "MailboxHash": "",
+      "Name": "First Bcc"
+    }
+  ],
+  "RawEmail": "From: Postmarkapp Support <support@postmarkapp.com>\r\nTo: Firstname Lastname <mailbox+SampleHash@inbound.postmarkapp.com>\r\nSubject: Test subject\r\n\r\nThis is a test text body.\r\n",
+  "StrippedTextReply": "This is the reply text",
+  "OriginalRecipient": "mailbox+SampleHash@inbound.postmarkapp.com",
+  "Attachments": [
+    {
+      "Name": "test.txt",
+      "Content": "VGhpcyBpcyBhdHRhY2htZW50IGNvbnRlbnRzLCBiYXNlLTY0IGVuY29kZWQu",
+      "ContentLength": 45,
+      "ContentType": "text/plain",
+      "ContentID": ""
+    }
+  ]
+}

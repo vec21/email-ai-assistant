@@ -1,0 +1,29 @@
+# Ambiente e variáveis
+.env
+Ragvenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Logs e cache
+*.log
+.cache
+logs/
+node_modules/
+npm-debug.log*
+
+# Arquivos específicos do projeto
+faiss_index/
+output/
+.DS_Store
+.pm2
+dump.pm2
+
+# Outros
+.vscode/
+.idea/

@@ -1,0 +1,38 @@
+# ======================================
+# CORE
+# ======================================
+flask==3.0.2
+python-dotenv==1.0.1  # Para gerenciar variáveis de ambiente
+
+# ======================================
+# PROCESSAMENTO DE LINGUAGEM NATURAL
+# ======================================
+langchain==0.1.11
+langchain-community==0.0.28
+langchain-groq==0.1.2  # Integração com Groq
+sentence-transformers==2.7.0  # Modelos de embeddings
+
+# ======================================
+# VECTOR STORE & EMBEDDINGS
+# ======================================
+faiss-cpu==1.8.0  # Para armazenamento vetorial (CPU)
+# faiss-gpu==1.8.0  # Use esta versão se tiver GPU
+
+# ======================================
+# UTILITÁRIOS
+# ======================================
+numpy==1.26.4  # Requerido pelo FAISS/SentenceTransformers
+requests==2.31.0  # Chamadas HTTP
+tqdm==4.66.2  # Progress bars
+python-multipart==0.0.9  # Para uploads de arquivos
+
+# ======================================
+# MONITORAMENTO & LOGS
+# ======================================
+blinker==1.7.0  # Sinais do Flask
+
+# ======================================
+# SEGURANÇA
+# ======================================
+gunicorn==21.2.0  # WSGI para produção
+gevent==24.2.1  # Workers assíncronos
